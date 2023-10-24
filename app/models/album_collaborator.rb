@@ -1,0 +1,2 @@
+class AlbumCollaborator < ApplicationRecord
+end
