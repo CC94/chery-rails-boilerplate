@@ -6,7 +6,6 @@ class CreateAlbums < ActiveRecord::Migration[7.0]
       t.date :date_of_published
       t.string :type
       t.string :genre
-      t.belongs_to :publishers, foreign_key: true
       t.timestamps
     end
   end

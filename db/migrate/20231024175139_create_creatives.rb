@@ -4,7 +4,6 @@ class CreateCreatives < ActiveRecord::Migration[7.0]
       t.string :name
       t.string :gender
       t.string :nationality
-      t.has_many :collaborators, foreign_key: true
       t.timestamps
     end
   end
